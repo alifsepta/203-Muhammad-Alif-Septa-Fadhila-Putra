@@ -7,11 +7,11 @@
       </div>
       <div class="container text-center">
         <div class="d-flex flex-column justify-content-center align-items-center">
-          <h1 data-aos="fade-up" class="">Welcome to <span>QuickStart</span></h1>
-          <p data-aos="fade-up" data-aos-delay="100" class="">Quickly start your project now and set the stage for success<br></p>
+          <h1 data-aos="fade-up" class="">Selamat datang di<span>Dgtaru</span></h1>
+          <p data-aos="fade-up" data-aos-delay="100" class="">Jual artikel, podcast, template, dan asset digitalmu.<br></p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#about" class="btn-get-started">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="#about" class="btn-get-started">Daftar</a>
+            {{-- <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> --}}
           </div>
           <img src="/img/hero-services-img.webp" class="img-fluid hero-img" alt="" data-aos="zoom-out" data-aos-delay="300">
         </div>
@@ -30,8 +30,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Lorem Ipsum</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                <h4 class="title"><a href="#" class="stretched-link">Artikel</a></h4>
+                <p class="description">Baca artikel menarik di platform kami sekarang juga.</p>
               </div>
             </div>
           </div>
@@ -41,8 +41,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip exa</p>
+                <h4 class="title"><a href="#" class="stretched-link">Podcast</a></h4>
+                <p class="description">Dengarkan podcast favoritmu di mana saja dan kapan saja.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -51,8 +51,8 @@
             <div class="service-item d-flex">
               <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
               <div>
-                <h4 class="title"><a href="#" class="stretched-link">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                <h4 class="title"><a href="#" class="stretched-link">Template</a></h4>
+                <p class="description">Gunakan template PPT kami untuk presentasi profesional Anda.</p>
               </div>
             </div>
           </div><!-- End Service Item -->
@@ -71,18 +71,17 @@
         <div class="row gy-4">
 
           <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-            <p class="who-we-are">Who We Are</p>
-            <h3>Unleashing Potential with Creative Strategy</h3>
+            <p class="who-we-are">Siapa Kami</p>
+            <h3>Menggali Potensi dengan Strategi Kreatif</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Platform Aset Digital kami menggali dan mengoptimalkan potensi Anda melalui beragam strategi kreatif untuk kesuksesan bisnis dan pengembangan personal.
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Baca artikel menarik di platform kami sekarang juga.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Dengarkan podcast favoritmu di mana saja dan kapan saja.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Gunakan template PPT kami untuk presentasi profesional Anda.</span></li>
             </ul>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="#" class="read-more"><span>Lihat selengkapnya</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
           <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
@@ -114,7 +113,7 @@
 
       <div class="container" data-aos="fade-up">
 
-        <div class="row gy-4">
+        {{-- <div class="row gy-4">
 
           <div class="col-xl-2 col-md-3 col-6 client-logo">
             <img src="/img/clients/client-1.png" class="img-fluid" alt="">
@@ -140,14 +139,14 @@
             <img src="/img/clients/client-6.png" class="img-fluid" alt="">
           </div><!-- End Client Item -->
 
-        </div>
+        </div> --}}
 
       </div>
 
     </section><!-- /Clients Section -->
 
     <!-- Features Section -->
-    <section id="features" class="features section">
+    {{-- <section id="features" class="features section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -224,10 +223,10 @@
 
       </div>
 
-    </section><!-- /Features Section -->
+    </section><!-- /Features Section --> --}}
 
     <!-- Features Details Section -->
-    <section id="features-details" class="features-details section">
+    {{-- <section id="features-details" class="features-details section">
 
       <div class="container">
 
@@ -278,10 +277,10 @@
 
       </div>
 
-    </section><!-- /Features Details Section -->
+    </section><!-- /Features Details Section --> --}}
 
     <!-- Services Section -->
-    <section id="services" class="services section">
+    {{-- <section id="services" class="services section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -363,10 +362,10 @@
 
       </div>
 
-    </section><!-- /Services Section -->
+    </section><!-- /Services Section --> --}}
 
     <!-- More Features Section -->
-    <section id="more-features" class="more-features section">
+    {{-- <section id="more-features" class="more-features section">
 
       <div class="container">
 
@@ -422,10 +421,10 @@
 
       </div>
 
-    </section><!-- /More Features Section -->
+    </section><!-- /More Features Section --> --}}
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+    {{-- <section id="pricing" class="pricing section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -499,17 +498,17 @@
 
       </div>
 
-    </section><!-- /Pricing Section -->
+    </section><!-- /Pricing Section --> --}}
 
     <!-- Faq Section -->
-    <section id="faq" class="faq section">
+    {{-- <section id="faq" class="faq section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      {{-- <div class="container section-title" data-aos="fade-up">
         <h2>Frequently Asked Questions</h2>
-      </div><!-- End Section Title -->
+      </div><!-- End Section Title --> --}}
 
-      <div class="container">
+      {{-- <div class="container">
 
         <div class="row justify-content-center">
 
@@ -571,12 +570,12 @@
 
         </div>
 
-      </div>
+      </div> --}}
 
-    </section><!-- /Faq Section -->
+    </section><!-- /Faq Section --> --}}
 
     <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
+    {{-- <section id="testimonials" class="testimonials section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -700,10 +699,10 @@
 
       </div>
 
-    </section><!-- /Testimonials Section -->
+    </section><!-- /Testimonials Section --> --}}
 
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    {{-- <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -782,6 +781,6 @@
 
       </div>
 
-    </section><!-- /Contact Section -->
+    </section><!-- /Contact Section --> --}}
 
   </main>
